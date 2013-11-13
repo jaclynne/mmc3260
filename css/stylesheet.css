@@ -1,0 +1,174 @@
+/* Header Rules*/
+
+header h1 { 
+    color: #000;
+    font-size: 35px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:500;
+        }
+
+header a:link{
+       text-decoration:none;
+       color: #008a76;
+}
+
+header a:hover{
+    text-decoration: underline;
+    font-weight: 600;}
+
+header a:visited {
+    color:#008a76;
+}
+   
+/* Navigation Rules */
+nav {
+    font-size: 19px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color: #008a76;
+    height: 48px;
+    text-align: center;
+        }
+
+nav a{
+    margin: 15px;
+            }
+
+nav a:link {
+    color: #fff;
+    text-decoration:none;
+    }
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight:800;
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+/* Article Rules*/
+
+h1{ 
+    color: #008a76;
+    font-size: 30px;
+  }
+
+h2 {
+    Color: #008a76;
+    text-decoration:underline;
+    }
+
+p {
+    font-size: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 24px;
+    }
+
+p a:link{
+    text-decoration:none;
+    color: #008a76;
+}
+
+p a:hover{
+    text-decoration:underline;
+}
+
+p a:visited{
+    color:#008a76;
+}
+
+ul {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+ul a:link{
+    color:#008a76;
+    text-decoration:none;
+}
+
+ul a:hover{
+    text-decoration:underline;
+}
+
+ul a:visited{
+    color:#008a76;
+    text-decoration: none
+}
+
+img { 
+    margin-top: 30px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto
+    }
+
+span a:link{
+    color:#000;
+}
+
+
+
+/*Footer Rules*/
+
+footer {
+    background-color: #008a76;
+    height:48px;
+    color: #fff;
+    font-size: 15px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    clear:both
+       }
+
+footer a{
+    margin: 15px;
+    font-size: 19px;
+    }
+
+footer a:link {
+    color: #fff;
+    text-decoration:none
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight:800;
+}
+
+footer a:visited {
+    color:#fff;
+}
+
+/*Media Queries*/
+@media screen  and (max-width: 600px) {
+
+    body{
+        padding:5px;
+    }
+    
+    h1, h2 {
+            text-align:center;
+    }
+    
+    nav {
+        background-color:transparent;
+        }
+    
+    nav a {
+            display:block;
+            background-color: #008a76;
+    }
+    
+    img {
+    margin-top:150px
+    }
+    
+    footer a { 
+        display:block;
+        background-color: #008a76;}
+    
+     footer {
+        background-color:transparent;
+        }
